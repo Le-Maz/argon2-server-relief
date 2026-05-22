@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-argon2 = "0.5.3"
+argon2 = { git = "https://github.com/Le-Maz/password-hashes" }
 blake2 = "0.10.6"
 rand_core_0_6_4 = { package = "rand_core", version = "=0.6.4", features = ["getrandom"] }
